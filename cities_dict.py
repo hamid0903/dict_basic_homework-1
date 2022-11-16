@@ -6,4 +6,7 @@ def cities_dict(cities:list):
     Returns:
         dict: dictionary with keys ordered by city name
     """
-    return
+    for key, value in enumerate(cities):
+        cities[key]=[value]
+    return key,value
+print(cities_dict(["New-York", "Tashkent", "Seoul"]))

@@ -16,6 +16,6 @@ def count_all(txt):
         if txt[idx].isdigit():
             digits+=1
         idx+=1
-    count={'letters=':letter,'digits=':digits}
+    count={'LETTERS=':letter,'DIGITS=':digits}
     return count
 print(count_all("Asus pro max 3000"))
